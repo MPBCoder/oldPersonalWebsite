@@ -1,0 +1,77 @@
+body {
+
+	background-color: whiteSmoke;}
+
+h1 {
+
+	color: gray;
+
+}
+
+header {
+
+	background-color: white;
+
+	border-radius: 7.5px;
+
+}
+
+.title {
+
+	text-align: center;
+
+	color: #7c5eeb;
+
+	
+
+}
+
+footer {
+
+	background-color: white;
+
+	border-radius: 7.5px;
+
+}
+
+.up {
+
+	color: gray;
+
+	text-align: center;
+
+	font-size: 1.5em;
+
+	text-align: center;
+
+}
+
+.copyright {
+
+	color: darkgray;
+
+	text-align: center;
+
+}
+
+@font-face {
+
+  font-family: 'Vazirmatn';
+
+  src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+
+       url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn[wght].woff2') format('woff2-variations');
+
+  font-weight: 100 900;
+
+  font-style: normal;
+
+  font-display: swap;
+
+}
+
+body {
+
+    font-family: Vazirmatn;
+
+}
