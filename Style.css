@@ -76,3 +76,7 @@ body {
 	font-family: Vazirmatn;
 
 }
+.code {
+background-color: lightgray;
+font-family: "fira code";
+}
