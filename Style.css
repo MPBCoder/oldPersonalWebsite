@@ -80,3 +80,18 @@ body {
 background-color: lightgray;
 font-family: "fira code";
 }
+@font-face {
+
+	font-family: "fira code";
+
+	src: url('/font/fira_code[wght].woff2') format('woff2 supports variations'),
+
+		url('/font/fira_code[wght].woff2') format('woff2-variations');
+
+	font-weight: 100 900;
+
+	font-style: normal;
+
+	font-display: swap;
+
+}
