@@ -57,7 +57,7 @@ footer {
 
 @font-face {
 
-	font-family: 'Vazirmatn';
+	font-family: "Vazirmatn";
 
 	src: url('/font/Vazirmatn[wght].woff2') format('woff2 supports variations'),
 
@@ -73,7 +73,7 @@ footer {
 
 body {
 
-	font-family: Vazirmatn;
+	font-family: "Vazirmatn";
 
 }
 .code {
