@@ -84,9 +84,9 @@ font-family: "fira code";
 
 	font-family: "fira code";
 
-	src: url('/font/fira_code[wght].woff2') format('woff2 supports variations'),
+	src: url('/Font/FiraCode-VF.woff2') format('woff2 supports variations'),
 
-		url('/font/fira_code[wght].woff2') format('woff2-variations');
+		url('/Font/FiraCode-VF.woff2') format('woff2-variations');
 
 	font-weight: 100 900;
 
