@@ -24,9 +24,9 @@ footer {
      background-color: white;
      border-radius: 0.5em;
 }
-.code {
+code {
      background-color: lightgray;
-     font-family: "fira code";
+     font-family: 'Fira Code', monospace !important;
      border-left: 0.3em solid darkgray;
      padding: 2px 2px 2px 4px 
  }
@@ -40,15 +40,12 @@ footer {
      font-style: normal;
      font-display: swap;
 }
- 
-
- 
-
- @font-face {
-     font-family: "fira code";
-     src: url('Font/FiraCode-VF.woff2') format('woff2');
-     font-weight: normal;
-     font-style: normal;
+@font-face {
+    font-family: "Fira code";
+    src: url('Font/FiraCode-VF.woff2') format('woff2 supports variations'), url('Font/FiraCode-VF.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
 }
 /*special rules*/
 
