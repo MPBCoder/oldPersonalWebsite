@@ -1,176 +1,91 @@
 /*base*/
-
 body {
-
      background-color: whiteSmoke;
-
      font-family: "Vazirmatn";
-
 }
-
  header {
-
      background-color: white;
-
      border-radius: 0.5em;
-
 }
 
 .up {
-
      color: gray;
-
      text-align: center;
-
      font-size: 1.5em;
-
      text-align: center;
-
 }
-
  .copyright {
-
      color: darkgray;
-
      text-align: center;
-
 }
-
 footer {
-
      background-color: white;
-
      border-radius: 0.5em;
-
 }
-p, h1, h2, h3, h4, h5, h6 {
-font-family: vazirmatn;
-}
-
 .code {
-
      background-color: lightgray;
-
      font-family: "fira code";
-
      border-left: 0.3em solid darkgray;
-
      padding: 2px 2px 2px 4px 
-
  }
-
- /*page specials*/
-
- .title-div {
-
-     text-align: center;
-
-     color: #7c5eeb;
-
-}
-
+ 
  /*import*/
-
  
-
  @font-face {
-
      font-family: "Vazirmatn";
-
-     src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/font/Vazirmatn[wght].woff2') format('woff2 supports variations'), url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/font/Vazirmatn[wght].woff2') format('woff2-variations');
-
+     src: url('font/Vazirmatn[wght].woff2') format('woff2 supports variations'), url('font/Vazirmatn[wght].woff2') format('woff2-variations');
      font-weight: 100 900;
-
      font-style: normal;
-
      font-display: swap;
-
 }
-
  
 
  
 
  @font-face {
-
      font-family: "fira code";
-
      src: url('/Font/FiraCode-VF.woff2') format('woff2 supports variations'), url('/Font/FiraCode-VF.woff2') format('woff2-variations');
-
      font-weight: 100 900;
-
      font-style: normal;
-
      font-display: swap;
-
 }
-
 /*special rules*/
 
 /* Rules for sizing the icon. */
-
  .material-icons.md-18 {
-
      font-size: 18px;
-
 }
-
  .material-icons.md-24 {
-
      font-size: 24px;
-
 }
-
  .material-icons.md-36 {
-
      font-size: 36px;
-
 }
-
  .material-icons.md-48 {
-
      font-size: 48px;
-
 }
-
 /* Rules for using icons as black on a light background. */
-
  .material-icons.md-dark {
-
      color: rgba(0, 0, 0, 0.54);
-
 }
-
  .material-icons.md-dark.md-inactive {
-
      color: rgba(0, 0, 0, 0.26);
-
 }
-
 /* Rules for using icons as white on a dark background. */
-
  .material-icons.md-light {
-
      color: rgba(255, 255, 255, 1);
-
 }
-
  .material-icons.md-light.md-inactive {
-
      color: rgba(255, 255, 255, 0.3);
-
 }
-
  .title {
-
      font-size: 2.5em;
-
 }
-
  .subtitle {
-
      font-size: 1em;
-
 }
-
- 
+ /*page specials*/
+ .title-div {
+     text-align: center;
+     color: #7c5eeb;
+ }
