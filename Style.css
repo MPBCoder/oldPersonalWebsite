@@ -1,7 +1,9 @@
 /*base*/
+* {
+     font-family: "Vazirmatn" !important;
+}
 body {
      background-color: whiteSmoke;
-     font-family: "Vazirmatn";
 }
  header {
      background-color: white;
@@ -33,7 +35,7 @@ footer {
  
  @font-face {
      font-family: "Vazirmatn";
-     src: url('font/Vazirmatn[wght].woff2') format('woff2 supports variations'), url('font/Vazirmatn[wght].woff2') format('woff2-variations');
+     src: url('Font/Vazirmatn[wght].woff2') format('woff2 supports variations'), url('Font/Vazirmatn[wght].woff2') format('woff2-variations');
      font-weight: 100 900;
      font-style: normal;
      font-display: swap;
@@ -44,10 +46,9 @@ footer {
 
  @font-face {
      font-family: "fira code";
-     src: url('/Font/FiraCode-VF.woff2') format('woff2 supports variations'), url('/Font/FiraCode-VF.woff2') format('woff2-variations');
-     font-weight: 100 900;
+     src: url('Font/FiraCode-VF.woff2') format('woff2');
+     font-weight: normal;
      font-style: normal;
-     font-display: swap;
 }
 /*special rules*/
 
