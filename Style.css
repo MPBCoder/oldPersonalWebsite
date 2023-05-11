@@ -1,6 +1,6 @@
 /*base*/
-* {
-     font-family: "Vazirmatn" !important;
+body {
+     font-family: "Vazirmatn", sans-serif !important;
 }
 body {
      background-color: whiteSmoke;
@@ -30,7 +30,21 @@ code {
      border-left: 0.3em solid darkgray;
      padding: 2px 2px 2px 4px 
  }
- 
+ footer {
+     position: absolute;
+     bottom: 0.5em;
+     left: 0.5em;
+     right: 0.5em;
+ }
+ header {
+     position: sticky;
+     top: 0.5em;
+     right: 0.5em;
+     left: 0.5em;
+ }
+ span {
+    margin: 0.25em 0.25em 0.25em 0.25em;
+ }
  /*import*/
  
  @font-face {
@@ -50,40 +64,49 @@ code {
 /*special rules*/
 
 /* Rules for sizing the icon. */
+
  .material-icons.md-18 {
-     font-size: 18px;
+     font-size: 18px !important;
 }
  .material-icons.md-24 {
-     font-size: 24px;
+     font-size: 24px !important;
 }
  .material-icons.md-36 {
-     font-size: 36px;
+     font-size: 36px !important;
 }
  .material-icons.md-48 {
-     font-size: 48px;
+     font-size: 48px !important;
 }
 /* Rules for using icons as black on a light background. */
  .material-icons.md-dark {
-     color: rgba(0, 0, 0, 0.54);
+     color: rgba(0, 0, 0, 0.54) !important;
 }
  .material-icons.md-dark.md-inactive {
-     color: rgba(0, 0, 0, 0.26);
+     color: rgba(0, 0, 0, 0.26) !important;
 }
 /* Rules for using icons as white on a dark background. */
  .material-icons.md-light {
-     color: rgba(255, 255, 255, 1);
+     color: rgba(255, 255, 255, 1) !important;
 }
  .material-icons.md-light.md-inactive {
-     color: rgba(255, 255, 255, 0.3);
+     color: rgba(255, 255, 255, 0.3) !important;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+ 
+ /*page specials*/
+ .title-div {
+     text-align: center;
+     color: #7c5eeb;
+ }
  .title {
      font-size: 2.5em;
 }
  .subtitle {
      font-size: 1em;
 }
- /*page specials*/
- .title-div {
-     text-align: center;
-     color: #7c5eeb;
- }
